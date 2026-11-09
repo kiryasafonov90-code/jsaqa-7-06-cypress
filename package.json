@@ -1,0 +1,15 @@
+{
+  "name": "jsaqa-7-06-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cypress end-to-end tests for Netology JSAQA homework 7-06",
+  "scripts": {
+    "cy:desktop:headed": "cypress open --config-file cypress.config.js --browser chrome",
+    "cy:desktop:headless": "cypress run --config-file cypress.config.js --browser chrome",
+    "cy:mobile:headed": "cypress open --config-file cypress.mobile.config.js --browser electron",
+    "cy:mobile:headless": "cypress run --config-file cypress.mobile.config.js --browser electron"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
